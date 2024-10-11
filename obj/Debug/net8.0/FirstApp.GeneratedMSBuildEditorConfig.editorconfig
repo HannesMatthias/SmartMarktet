@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstApp
-build_property.ProjectDir = C:\Users\Matthias\Documents\Visual Studio 2022\Projekte\FirstApp\
+build_property.ProjectDir = C:\Users\Matthias\Source\Repos\SmartMarktet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Matthias/Documents/Visual Studio 2022/Projekte/FirstApp/App.axaml]
+[C:/Users/Matthias/Source/Repos/SmartMarktet/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Matthias/Documents/Visual Studio 2022/Projekte/FirstApp/MainWindow.axaml]
+[C:/Users/Matthias/Source/Repos/SmartMarktet/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

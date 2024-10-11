@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6RqJkuE3M1U=",
+  "dgSpecHash": "Nb+FSrKE5kg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matthias\\Documents\\Visual Studio 2022\\Projekte\\FirstApp\\FirstApp.csproj",
+  "projectFilePath": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\FirstApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matthias\\.nuget\\packages\\avalonia\\11.1.4\\avalonia.11.1.4.nupkg.sha512",
     "C:\\Users\\Matthias\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

@@ -10,7 +10,7 @@
     <Grid ColumnDefinitions="25*, 25*, 25*">
         <Rectangle Grid.Column="0" Fill="White"/>
         <GridSplitter Grid.Column="1" Background="Black" ResizeDirection="Columns"/>
-        <Rectangle Grid.Column="2" Fill="Red"/>
+        <Rectangle Grid.Column="2" Fill="Blue"/>
 
 
         <Panel Height="300" Width="300">
