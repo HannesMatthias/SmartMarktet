@@ -28,5 +28,8 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/Matthias/source/Repos/SmartMarktet/ScanCard.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Matthias/source/Repos/SmartMarktet/Shop.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Matthias/source/Repos/SmartMarktet/SuccessfulOrder.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

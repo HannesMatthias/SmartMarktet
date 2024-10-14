@@ -26,6 +26,14 @@ public partial class MainWindow : Window
 
     }
 
+    private void OpenShop(object sender, RoutedEventArgs e)
+    {
+        Shop secondWindow = new Shop();
+        secondWindow.Show();
+        this.Close();
+
+    }
+
 
 
 

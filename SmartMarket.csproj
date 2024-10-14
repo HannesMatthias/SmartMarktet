@@ -24,6 +24,10 @@
 		<AvaloniaResource Include="img\united-kingdom.png" />
 		<AvaloniaResource Include="img\rfid.png" />
 		<AvaloniaResource Include="img\checkout.png" />
+		<AvaloniaResource Include="img\category\juice.png" />
+		<AvaloniaResource Include="img\category\orange-juice.png" />
+		<AvaloniaResource Include="img\category\peach-juice.png" />
+		<AvaloniaResource Include="img\category\soft-drink.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -33,6 +37,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Shop.axaml.cs">
+	    <DependentUpon>Shop.axaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="SuccessfulOrder.axaml.cs">
 	    <DependentUpon>SuccessfulOrder.axaml</DependentUpon>
 	  </Compile>

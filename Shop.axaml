@@ -1,0 +1,157 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SmartMarket.Shop"
+        xmlns:d="https://github.com/avaloniaui/designtime"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Width="1920" Height="1080"
+        Title="Shop"
+        Background="#3965FF">
+
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="450"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="450"/>
+		</Grid.ColumnDefinitions>
+
+		<!-- Linke Seite - Kategorien -->
+		<Grid Grid.Column="0" VerticalAlignment="Stretch">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<!-- Kategorien - Erster Bereich, nimmt den Platz ein -->
+			<StackPanel Grid.Row="0" VerticalAlignment="Top">
+				<TextBlock Text="Kategorie" 
+						   FontSize="40" 
+						   FontWeight="Bold" 
+						   Foreground="White" 
+						   HorizontalAlignment="Center" 
+						   VerticalAlignment="Center" 
+						   Margin="0,50,0,0"/>
+				
+				<Button Margin="0,50,0,0" Width="390"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="White"
+                    CornerRadius="10"
+                    Padding="15"
+                    Background="White">
+					<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+						<Image Source="avares://SmartMarket/img/category/soft-drink.png" Width="45" Margin="0,0,20,0"/>
+						<TextBlock Text="Säfte" VerticalAlignment="Center" Foreground="black" FontSize="25" FontWeight="DemiBold"/>
+					</StackPanel>
+				</Button>
+
+				<Button Margin="0,15,0,0" Width="390"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="White"
+                    CornerRadius="10"
+                    Padding="15"
+                    Background="White">
+					<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+						<Image Source="avares://SmartMarket/img/category/orange-juice.png" Width="45" Margin="0,0,20,0"/>
+						<TextBlock Text="Säfte" VerticalAlignment="Center" Foreground="black" FontSize="25" FontWeight="DemiBold"/>
+					</StackPanel>
+				</Button>
+			</StackPanel>
+
+			<!-- Zurück Button - Am unteren Rand -->
+			<Button Content="Zurück"
+				Background="#FBAF00"
+				Foreground="White"
+				Margin="30,10,10,30"
+				Grid.Row="1"
+				Grid.Column="0"
+				HorizontalAlignment="Left"
+				VerticalAlignment="Bottom"
+				Width="190"
+				Padding="15"
+				FontWeight="Bold"
+				FontSize="30"
+				CornerRadius="10"
+				HorizontalContentAlignment="Center"
+				VerticalContentAlignment="Center"/>
+		</Grid>
+
+		<!-- Mittlere Spalte - Produkte -->
+		<StackPanel Grid.Column="1" Background="#335AE5" VerticalAlignment="Stretch">
+
+			<TextBlock Text="Kategorie"
+						   FontSize="40"
+						   FontWeight="Bold"
+						   Foreground="White"
+						   HorizontalAlignment="Left"
+						   VerticalAlignment="Center"
+						   Margin="80,50,0,0"/>
+
+			<ItemsControl>
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<Border BorderBrush="Gray" BorderThickness="1" Margin="5" Padding="5">
+							<StackPanel>
+								<TextBlock Text="Name" FontWeight="Bold"/>
+								<TextBlock Text="Volumen"/>
+								<TextBlock Text="Price" Foreground="Green"/>
+								<Button Content="Add to Cart" />
+							</StackPanel>
+						</Border>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</StackPanel>
+
+		<!-- Rechte Seite - Warenkorb -->
+		<Grid Grid.Column="2" VerticalAlignment="Stretch">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<!-- Warenkorb - Erster Bereich -->
+			<StackPanel Grid.Row="0" VerticalAlignment="Top" >
+
+				<TextBlock Text="Warenkorb"
+						   FontSize="40"
+						   FontWeight="Bold"
+						   Foreground="White"
+						   HorizontalAlignment="Center"
+						   VerticalAlignment="Center"
+						   Margin="0,50,0,0"/>
+
+				<ItemsControl>
+					<ItemsControl.ItemTemplate>
+						<DataTemplate>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock Text="Name" Foreground="White"/>
+								<TextBlock Text="15" Margin="5,0"/>
+								<Button Content="-" />
+								<Button Content="+" />
+							</StackPanel>
+						</DataTemplate>
+					</ItemsControl.ItemTemplate>
+				</ItemsControl>
+			</StackPanel>
+
+			<!-- Weiter Button - Am unteren Rand -->
+			<Button Content="Weiter"
+                Grid.Row="1"
+                Background="#3BE94C"
+                Foreground="White"
+                Margin="0,0,30,30"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Width="180"
+                Padding="15"
+                FontWeight="Bold"
+                FontSize="30"
+                CornerRadius="10"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"/>
+		</Grid>
+	</Grid>
+</Window>

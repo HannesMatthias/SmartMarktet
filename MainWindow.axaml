@@ -42,7 +42,7 @@
 				<Image Source="avares://SmartMarket/img/italy.png" Stretch="Uniform"/>
 			</Button>
 
-			<Button Width="350" Background="Transparent">
+			<Button Width="350" Background="Transparent" Click="OpenShop">
 				<Image Source="avares://SmartMarket/img/united-kingdom.png" Stretch="Uniform"/>
 			</Button>
 		</StackPanel>
