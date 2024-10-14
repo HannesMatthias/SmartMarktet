@@ -1,25 +1,48 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        x:Class="FirstApp.MainWindow"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        x:Class="SmartMarket.MainWindow"
+		xmlns:d="https://github.com/avaloniaui/designtime"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:designViewModels="clr-namespace:Sample.ViewModels.Designer"
+		mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450">
-
-    <Grid ColumnDefinitions="25*, 25*, 25*">
-        <Rectangle Grid.Column="0" Fill="White"/>
-        <GridSplitter Grid.Column="1" Background="Red" ResizeDirection="Columns"/>
-        <Rectangle Grid.Column="2" Fill="Blue"/>
+        Width="1920" Height="1080"
+        Background="#3965FF">
 
 
-        <Panel Height="300" Width="300">
-    <Rectangle Fill="Red" Height="100" VerticalAlignment="Top"/>
-    <Rectangle Fill="Blue" Opacity="1" Width="100" HorizontalAlignment="Right" />
-    <Rectangle Fill="Green" Opacity="0.5" Height="100" VerticalAlignment="Bottom"/>
-    
-</Panel>
-    </Grid> 
 
+	<Grid>
 
+		<Border Background="White" CornerRadius="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0">
+			<TextBlock Text="Sprache auswählen"
+					   HorizontalAlignment="Center"
+					   VerticalAlignment="Center"
+					   TextAlignment="Center"
+					   Padding="100,20,100,20"
+					   FontSize="50"
+					   Foreground="#3965FF"
+					   FontWeight="Bold"
+					   Width="1200"/>
+		</Border>
+
+		
+		<StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Spacing="20"
+					Margin="0,120,0,0">
+
+			<Button Width="350" Background="Transparent">
+				<Image Source="avares://SmartMarket/img/germany.png" Stretch="Uniform"/>
+			</Button>
+
+			<Button Width="350" Background="Transparent" Margin="55">
+				<Image Source="avares://SmartMarket/img/italy.png" Stretch="Uniform"/>
+			</Button>
+
+			<Button Width="350" Background="Transparent">
+				<Image Source="avares://SmartMarket/img/united-kingdom.png" Stretch="Uniform"/>
+			</Button>
+		</StackPanel>
+	</Grid>
 </Window>

@@ -1479,9 +1479,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\FirstApp.csproj",
-      "projectName": "FirstApp",
-      "projectPath": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\FirstApp.csproj",
+      "projectUniqueName": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\SmartMarket.csproj",
+      "projectName": "SmartMarket",
+      "projectPath": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\SmartMarket.csproj",
       "packagesPath": "C:\\Users\\Matthias\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\obj\\",
       "projectStyle": "PackageReference",

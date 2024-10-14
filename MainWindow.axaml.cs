@@ -1,7 +1,7 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 
-namespace FirstApp;
+namespace SmartMarket;
 
 public partial class MainWindow : Window
 {
@@ -10,5 +10,5 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-
+    
 }

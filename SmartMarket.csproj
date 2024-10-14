@@ -17,4 +17,12 @@
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.1.4" />
   </ItemGroup>
+
+	<ItemGroup>
+		<AvaloniaResource Include="img\germany.png" />
+		<AvaloniaResource Include="img\italy.png" />
+		<AvaloniaResource Include="img\united-kingdom.png" />
+	</ItemGroup>
+	
+  
 </Project>
