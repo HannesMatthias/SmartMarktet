@@ -15,9 +15,18 @@ public partial class MainWindow : Window
         ScanCard secondWindow = new ScanCard();
         secondWindow.Show();
         this.Close();
+        
     }
 
- 
+    private void OpenSuccessfulOrder(object sender, RoutedEventArgs e)
+    {
+        SuccessfulOrder secondWindow = new SuccessfulOrder();
+        secondWindow.Show();
+        this.Close();
+
+    }
+
+
 
 
 }

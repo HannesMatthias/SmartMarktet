@@ -1,6 +1,6 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        x:Class="SmartMarket.MainWindow"
+        x:Class="SmartMarket.SuccessfulOrder"
 		xmlns:d="https://github.com/avaloniaui/designtime"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:designViewModels="clr-namespace:Sample.ViewModels.Designer"
@@ -16,7 +16,7 @@
 	<Grid>
 
 		<Border Background="White" CornerRadius="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0">
-			<TextBlock Text="Sprache auswählen"
+			<TextBlock Text="Danke für die Bestellung"
 					   HorizontalAlignment="Center"
 					   VerticalAlignment="Center"
 					   TextAlignment="Center"
@@ -27,24 +27,35 @@
 					   Width="1200"/>
 		</Border>
 
+		<TextBlock Text="Sie können den bestellten wert"
+					   HorizontalAlignment="Center"
+					   VerticalAlignment="Center"
+					   TextAlignment="Center"
+					   FontSize="45"
+					   Foreground="white"
+					   FontWeight="Bold"
+					   Margin="0,-150,0,0"
+					   Width="1200"/>
+		<TextBlock Text="am Buchungs-Automaten  bezahlen"
+					   HorizontalAlignment="Center"
+					   VerticalAlignment="Center"
+					   TextAlignment="Center"
+					   FontSize="45"
+					   Foreground="white"
+					   FontWeight="Bold"
+					   Margin="0,-90,0,0"
+					   Width="1200"/>
+
 		
 		<StackPanel Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
                     Spacing="20"
-					Margin="0,120,0,0">
+					Margin="0,500,0,0">
 
-			<Button Width="350" Background="Transparent" Click="OpenScanCard">
-				<Image Source="avares://SmartMarket/img/germany.png" Stretch="Uniform"  />
-			</Button>
-
-			<Button Width="350" Background="Transparent" Margin="55" Click="OpenSuccessfulOrder">
-				<Image Source="avares://SmartMarket/img/italy.png" Stretch="Uniform"/>
-			</Button>
-
-			<Button Width="350" Background="Transparent">
-				<Image Source="avares://SmartMarket/img/united-kingdom.png" Stretch="Uniform"/>
-			</Button>
+			
+				<Image Source="avares://SmartMarket/img/checkout.png" Stretch="Uniform" Width="350"/>
+			
 		</StackPanel>
 	</Grid>
 </Window>

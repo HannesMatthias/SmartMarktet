@@ -23,6 +23,7 @@
 		<AvaloniaResource Include="img\italy.png" />
 		<AvaloniaResource Include="img\united-kingdom.png" />
 		<AvaloniaResource Include="img\rfid.png" />
+		<AvaloniaResource Include="img\checkout.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -32,6 +33,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="SuccessfulOrder.axaml.cs">
+	    <DependentUpon>SuccessfulOrder.axaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="ScanCard.axaml.cs">
 	    <SubType>Code</SubType>
 	    <DependentUpon>ScanCard.axaml</DependentUpon>
