@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i4aOtlck8iM=",
+  "dgSpecHash": "K8YKXZajZRY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\SmartMarket.csproj",
+  "projectFilePath": "C:\\Users\\Matthias\\source\\Repos\\SmartMarktet\\SmartMarket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matthias\\.nuget\\packages\\avalonia\\11.1.4\\avalonia.11.1.4.nupkg.sha512",
     "C:\\Users\\Matthias\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

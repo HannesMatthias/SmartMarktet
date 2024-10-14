@@ -15,12 +15,15 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SmartMarket
-build_property.ProjectDir = C:\Users\Matthias\Source\Repos\SmartMarktet\
+build_property.ProjectDir = C:\Users\Matthias\source\Repos\SmartMarktet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Matthias/Source/Repos/SmartMarktet/App.axaml]
+[C:/Users/Matthias/source/Repos/SmartMarktet/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Matthias/Source/Repos/SmartMarktet/MainWindow.axaml]
+[C:/Users/Matthias/source/Repos/SmartMarktet/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Matthias/source/Repos/SmartMarktet/ScanCard.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

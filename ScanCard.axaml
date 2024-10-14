@@ -1,6 +1,6 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        x:Class="SmartMarket.MainWindow"
+        x:Class="SmartMarket.ScanCard"
 		xmlns:d="https://github.com/avaloniaui/designtime"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:designViewModels="clr-namespace:Sample.ViewModels.Designer"
@@ -14,7 +14,7 @@
 	<Grid>
 
 		<Border Background="White" CornerRadius="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0">
-			<TextBlock Text="Sprache auswählen"
+			<TextBlock Text="Buchungskarte Scannen"
 					   HorizontalAlignment="Center"
 					   VerticalAlignment="Center"
 					   TextAlignment="Center"
@@ -32,17 +32,9 @@
                     Spacing="20"
 					Margin="0,120,0,0">
 
-			<Button Width="350" Background="Transparent" Click="OpenScanCard">
-				<Image Source="avares://SmartMarket/img/germany.png" Stretch="Uniform"  />
-			</Button>
-
-			<Button Width="350" Background="Transparent" Margin="55">
-				<Image Source="avares://SmartMarket/img/italy.png" Stretch="Uniform"/>
-			</Button>
-
-			<Button Width="350" Background="Transparent">
-				<Image Source="avares://SmartMarket/img/united-kingdom.png" Stretch="Uniform"/>
-			</Button>
+			
+				<Image Source="avares://SmartMarket/img/rfid.png" Stretch="Uniform" Width="350"/>
+			
 		</StackPanel>
 	</Grid>
 </Window>

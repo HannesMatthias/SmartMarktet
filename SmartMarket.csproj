@@ -22,6 +22,20 @@
 		<AvaloniaResource Include="img\germany.png" />
 		<AvaloniaResource Include="img\italy.png" />
 		<AvaloniaResource Include="img\united-kingdom.png" />
+		<AvaloniaResource Include="img\rfid.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AvaloniaXaml Update="ScanCard.axaml">
+	    <SubType>Designer</SubType>
+	  </AvaloniaXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="ScanCard.axaml.cs">
+	    <SubType>Code</SubType>
+	    <DependentUpon>ScanCard.axaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 	
   

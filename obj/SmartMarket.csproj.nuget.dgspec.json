@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\SmartMarket.csproj": {}
+    "C:\\Users\\Matthias\\source\\Repos\\SmartMarktet\\SmartMarket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\SmartMarket.csproj": {
+    "C:\\Users\\Matthias\\source\\Repos\\SmartMarktet\\SmartMarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\SmartMarket.csproj",
+        "projectUniqueName": "C:\\Users\\Matthias\\source\\Repos\\SmartMarktet\\SmartMarket.csproj",
         "projectName": "SmartMarket",
-        "projectPath": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\SmartMarket.csproj",
+        "projectPath": "C:\\Users\\Matthias\\source\\Repos\\SmartMarktet\\SmartMarket.csproj",
         "packagesPath": "C:\\Users\\Matthias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthias\\Source\\Repos\\SmartMarktet\\obj\\",
+        "outputPath": "C:\\Users\\Matthias\\source\\Repos\\SmartMarktet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

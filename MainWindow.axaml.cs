@@ -10,5 +10,14 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    
+    private void OpenScanCard(object sender, RoutedEventArgs e)
+    {
+        ScanCard secondWindow = new ScanCard();
+        secondWindow.Show();
+        this.Close();
+    }
+
+ 
+
+
 }
